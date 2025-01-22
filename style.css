@@ -95,3 +95,55 @@ body {
   li button:hover {
     background-color: #a71d2a;
   }
+
+  /* Buttons inside tasks */
+#todo-list li button {
+  background-color: #e57373;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#todo-list li button:hover {
+  background-color: #d32f2f;
+}
+
+#todo-list li button.complete {
+  background-color: #4caf50;
+}
+
+#todo-list li button.complete:hover {
+  background-color: #388e3c;
+}
+
+#todo-list li button.edit {
+  background-color: #ffa726;
+}
+
+#todo-list li button.edit:hover {
+  background-color: #fb8c00;
+}
+
+/* Clear All Button */
+#clear-all {
+  padding: 10px;
+  background: #ff5722;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+#clear-all:hover {
+  background: #e64a19;
+  transform: scale(1.05);
+}
